@@ -13,16 +13,16 @@ function Header(props) {
       
       <div className="header__navigation">
         <Link className="app-link app-text header__navigation-link" to={"/about-me"}>
-          {headerText.aboutMe}
+          {headerText.aboutMe.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/portfolio"}>
-          {headerText.portfolio}
+          {headerText.portfolio.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/services"}>
-          {headerText.services}
+          {headerText.services.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/contacts"}>
-          {headerText.contacts}
+          {headerText.contacts.toUpperCase()}
         </Link>
       </div>
     </header>
