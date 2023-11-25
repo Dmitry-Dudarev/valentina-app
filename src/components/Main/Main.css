@@ -5,6 +5,7 @@
   background-color: #000;
   width: 100%;
   gap: 10px;
+  padding: 30px;
 }
 
 .main__banner {
@@ -51,7 +52,34 @@
 
 .main__grid-banner-text {
   grid-column: 4 / span 1;
-  background-color: rgb(52, 201, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 30px;
+  background-color: #1e2634;
+}
+
+.main__banner-text {
+  text-align: center;
+  color: #fcfbfa;
+  font-size: 16px;
+}
+
+.main__banner-text-borderline {
+  width: 100%;
+  border: none;
+  color: #fcfbfa;
+  background-color: #fcfbfa;
+  height: 1px;
+}
+
+.main__grid-banner-text-contacts-link {
+  width: 100%;
+  text-align: center;
+  background-color: #ffae01;
+  border-radius: 20px;
+  padding: 10px 0;
+  color: #1e2634;
 }
 
 .main__grid-banner-right {

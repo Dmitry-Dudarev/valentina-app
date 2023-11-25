@@ -1,9 +1,7 @@
 // тут должна быть условная логика: 
 // если переменная языка равна ru
 // то и объекту будут присвоены соответствующие значения
-export const headerText = {
-  aboutMe: 'Обо\u00A0мне',
-  portfolio: 'Портфолио',
-  services: 'Услуги',
-  contacts: 'Контакты',
+export const mainText = {
+  textBlockParagraphFirst: 'Рада приветствовать Вас на сайте, посвященном моей работе',
+  textBlockParagraphSecond: 'Вот как можно связаться со мной'
 }
