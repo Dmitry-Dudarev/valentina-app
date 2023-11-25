@@ -19,7 +19,7 @@ function Main(props) {
 
           <Link className="app-link main__grid-cell main__grid-about-me-link" to={"/about-me"}>
             <h2 className="app-text main__grid-cell-title">{linksText.aboutMe.toUpperCase()}</h2>
-            <div className="main__grid-cell-image" />
+            <div className="main__grid-cell-image main__grid-about-me-cell-image" />
           </Link>
 
           <Link className="app-link main__grid-cell main__grid-portfolio-link" to={"/portfolio"}>
@@ -30,7 +30,7 @@ function Main(props) {
           <Link className="app-link main__grid-cell main__grid-services-link" to={"/services"}>
             <h2 className="app-text main__grid-cell-title">{linksText.services.toUpperCase()}</h2>
             <div className="main__grid-cell-services-section">
-              
+
             </div>
           </Link>
         </div>

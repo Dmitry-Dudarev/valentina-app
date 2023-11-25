@@ -30,7 +30,6 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 27vh);
 
-  border: 1px solid green;
 
   border-radius: 10px;
   overflow: hidden;
@@ -69,12 +68,25 @@
   font-size: 35px;
 }
 
+.main__grid-cell-image {
+  width: 100%;
+  border-radius: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+
 .main__grid-about-me-link {
   grid-column: 1 / span 2;
   grid-row: 2;
   background-color: blueviolet;
-  display: flex;
-  flex-direction: column;
+}
+
+.main__grid-about-me-cell-image {
+  background-image: url('../../images/about-me__icon.svg');
+  /* background-color: red; */
+  
 }
 
 .main__grid-portfolio-link {
