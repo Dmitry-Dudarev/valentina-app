@@ -9,6 +9,7 @@
 .header__logo {
   transition: opacity 0.3s;
   width: 50px;
+  margin-left: 30px;
 }
 
 .header__location {

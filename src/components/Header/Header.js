@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import HeaderLogo from "../../images/header__logo.svg";
-import { headerText } from "../../constants/header-text";
+import { linksText } from "../../constants/links-text";
 import "./Header.css";
 
 function Header(props) {
@@ -11,10 +11,10 @@ function Header(props) {
   // текущем положении на сайте
   // на главной странице сообщения нет
   const location = (
-    currentLocation === "/about-me" ? headerText.aboutMe : 
-    currentLocation === "/portfolio" ? headerText.portfolio :
-    currentLocation === "/services" ? headerText.services :
-    currentLocation === "/contacts" ? headerText.contacts :
+    currentLocation === "/about-me" ? linksText.aboutMe : 
+    currentLocation === "/portfolio" ? linksText.portfolio :
+    currentLocation === "/services" ? linksText.services :
+    currentLocation === "/contacts" ? linksText.contacts :
     "");
 
   return (
@@ -27,16 +27,16 @@ function Header(props) {
 
       <div className="header__navigation">
         <Link className="app-link app-text header__navigation-link" to={"/about-me"}>
-          {headerText.aboutMe.toUpperCase()}
+          {linksText.aboutMe.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/portfolio"}>
-          {headerText.portfolio.toUpperCase()}
+          {linksText.portfolio.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/services"}>
-          {headerText.services.toUpperCase()}
+          {linksText.services.toUpperCase()}
         </Link>
         <Link className="app-link app-text header__navigation-link" to={"/contacts"}>
-          {headerText.contacts.toUpperCase()}
+          {linksText.contacts.toUpperCase()}
         </Link>
       </div>
     </header>
