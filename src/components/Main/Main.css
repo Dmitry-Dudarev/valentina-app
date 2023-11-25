@@ -75,18 +75,22 @@
   background-position: center;
   background-repeat: no-repeat;
   flex-grow: 1;
+
+  transition: background-color 0.8s;
 }
 
 .main__grid-about-me-link {
   grid-column: 1 / span 2;
   grid-row: 2;
-  background-color: blueviolet;
+}
+
+.main__grid-about-me-link:hover .main__grid-cell-image {
+  background-color: #ffad03;
+  background-image: url('../../images/about-me__icon_black.svg');
 }
 
 .main__grid-about-me-cell-image {
   background-image: url('../../images/about-me__icon.svg');
-  /* background-color: red; */
-  
 }
 
 .main__grid-portfolio-link {
