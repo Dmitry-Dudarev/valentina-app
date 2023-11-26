@@ -60,6 +60,7 @@
   align-items: center;
   padding: 18px 30px;
   background-color: #1e2634;
+  border: 1px solid #ffae01;
 }
 
 .main__banner-text {
@@ -105,6 +106,7 @@
   font-size: 35px;
   line-height: 1.3;
   letter-spacing: 5px;
+  background-color: #1e2634;
 }
 
 .main__grid-portfolio-link-title {
@@ -124,10 +126,12 @@
 .main__grid-about-me-link {
   grid-column: 1 / span 2;
   grid-row: 2;
+  border: 1px solid #ffae01;
+  background-color: #1e2634;
 }
 
 .main__grid-about-me-link:hover .main__grid-cell-image {
-  background-color: #ffad03;
+  background-color: #ffad01;
   background-image: url('../../images/about-me__icon_black.svg');
 }
 
@@ -150,10 +154,12 @@
 .main__grid-services-link {
   grid-column: 5 / span 2;
   grid-row: 2 / span 1;
+  background-color: #1e2634;
+  border: 1px solid #ffae01;
 }
 
 .main__grid-services-link:hover .main__grid-cell-services-section {
-  background-color: #ffad03;
+  background-color: #ffad01;
 }
 
 .main__grid-services-link:hover .main__interior-design-icon {
@@ -173,10 +179,11 @@
   grid-template-columns: min-content 1fr min-content;
   grid-template-rows: repeat(2, 1fr);
   flex-grow: 1;
-  padding: 10px 10px;
+  padding: 10px 45px;
   justify-items: center;
   border-radius: 10px;
   overflow: hidden;
+  transition: background-color 0.8s;
 }
 
 .main__interior-design-icon {
