@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/valentina-app/static/css/main.b824d9aa.css",
-    "main.js": "/valentina-app/static/js/main.42402327.js",
+    "main.css": "/valentina-app/static/css/main.67144d79.css",
+    "main.js": "/valentina-app/static/js/main.f7607220.js",
     "static/js/787.bdff869c.chunk.js": "/valentina-app/static/js/787.bdff869c.chunk.js",
     "static/media/main-banner-left__image.jpg": "/valentina-app/static/media/main-banner-left__image.4e2a02122bbd89a55e9a.jpg",
     "static/media/main-banner-right__image.jpg": "/valentina-app/static/media/main-banner-right__image.98c3fba3d0a6328304f4.jpg",
     "static/media/main-banner__image.jpg": "/valentina-app/static/media/main-banner__image.512e2e603c8b982a5203.jpg",
     "static/media/main-portfolio-link__image.jpg": "/valentina-app/static/media/main-portfolio-link__image.1355fc9984c2e0a77d2b.jpg",
-    "static/media/main-services-archicad__icon_black.svg": "/valentina-app/static/media/main-services-archicad__icon_black.870b3385b0849d0b7aed.svg",
-    "static/media/main-services-archicad__icon.svg": "/valentina-app/static/media/main-services-archicad__icon.1b9b9be8ec03c9324a3f3f4683a233d6.svg",
-    "static/media/header__logo.svg": "/valentina-app/static/media/header__logo.f5164043f978998f22b9f88bd2ce3816.svg",
-    "static/media/main-services-design__icon.svg": "/valentina-app/static/media/main-services-design__icon.779966a2302a6306461389c4faa1afc1.svg",
-    "static/media/main-services-design__icon_black.svg": "/valentina-app/static/media/main-services-design__icon_black.c9912ff310df037dee22.svg",
-    "static/media/main-services__icon.svg": "/valentina-app/static/media/main-services__icon.d1cb38d2195aa2d93d13c44dc83a73c9.svg",
-    "static/media/main-services__icon_black.svg": "/valentina-app/static/media/main-services__icon_black.abc91a6911bd9409e8b4.svg",
+    "static/media/main-services-archicad__icon_black.svg": "/valentina-app/static/media/main-services-archicad__icon_black.9811d3eb3cefd829bf9d.svg",
+    "static/media/main-services-archicad__icon.svg": "/valentina-app/static/media/main-services-archicad__icon.828540e063c8c8bf46e661feb2fd8341.svg",
+    "static/media/header__logo.svg": "/valentina-app/static/media/header__logo.103f065d9f7bf30720008db2e0d332f4.svg",
+    "static/media/main-services-design__icon.svg": "/valentina-app/static/media/main-services-design__icon.ce6df14c86a17c3e66963cd0febf3def.svg",
+    "static/media/main-services-design__icon_black.svg": "/valentina-app/static/media/main-services-design__icon_black.d8a8ae1b6d0dcc804e85.svg",
+    "static/media/main-services__icon.svg": "/valentina-app/static/media/main-services__icon.6a27f3dd0c5cbffeff32.svg",
+    "static/media/main-services__icon_black.svg": "/valentina-app/static/media/main-services__icon_black.b1ecaf24cd901b461582.svg",
     "static/media/about-me__icon.svg": "/valentina-app/static/media/about-me__icon.bbee4501be460803f70a.svg",
     "static/media/about-me__icon_black.svg": "/valentina-app/static/media/about-me__icon_black.cdb1ee3d9c43e155b060.svg",
     "index.html": "/valentina-app/index.html",
-    "main.b824d9aa.css.map": "/valentina-app/static/css/main.b824d9aa.css.map",
-    "main.42402327.js.map": "/valentina-app/static/js/main.42402327.js.map",
+    "main.67144d79.css.map": "/valentina-app/static/css/main.67144d79.css.map",
+    "main.f7607220.js.map": "/valentina-app/static/js/main.f7607220.js.map",
     "787.bdff869c.chunk.js.map": "/valentina-app/static/js/787.bdff869c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b824d9aa.css",
-    "static/js/main.42402327.js"
+    "static/css/main.67144d79.css",
+    "static/js/main.f7607220.js"
   ]
 }
