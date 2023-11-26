@@ -6,7 +6,6 @@ import { linksText } from "../../constants/links-text";
 
 import designIcon from "../../images/main-services-design__icon.svg";
 import archicadIcon from "../../images/main-services-archicad__icon.svg";
-import servicesIcon from "../../images/main-services__icon.svg";
 
 function Main(props) {
   // для показа списка услуг вместо правого баннера 
