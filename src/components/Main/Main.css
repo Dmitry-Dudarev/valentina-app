@@ -15,7 +15,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   background-image: url('../../images/main-banner__image.jpg');
   background-repeat: no-repeat;
   background-position: 50% 70%;
@@ -25,7 +24,6 @@
 .main__content {
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
 }
 
 .main__grid {
@@ -48,7 +46,6 @@
 .main__grid-banner-left {
   grid-column: 1 / span 3;
   background-color: blueviolet;
-
   background-image: url('../../images/main-banner-left__image.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -93,8 +90,6 @@
 
 .main__grid-banner-right {
   grid-column: 5 / span 2;
-  background-color: aquamarine;
-
   background-image: url('../../images/main-banner-right__image.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -113,7 +108,7 @@
 }
 
 .main__grid-portfolio-link-title {
-  background-color: #2e3a48;
+  background-color: #79838f;
 }
 
 .main__grid-cell-image {
@@ -154,7 +149,99 @@
 
 .main__grid-services-link {
   grid-column: 5 / span 2;
-  grid-row: 2;
+  grid-row: 2 / span 1;
+}
 
-  background-color: blueviolet;
+.main__grid-services-link:hover .main__grid-cell-services-section {
+  background-color: #ffad03;
+}
+
+.main__grid-services-link:hover .main__interior-design-icon {
+  background-image: url('../../images/main-services-design__icon_black.svg');
+}
+
+.main__grid-services-link:hover .main__archicad-project-icon {
+  background-image: url('../../images/main-services-archicad__icon_black.svg');
+}
+
+.main__grid-services-link:hover .main__all-services-icon {
+  background-image: url('../../images/main-services__icon_black.svg');
+}
+
+.main__grid-cell-services-section {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-rows: repeat(2, 1fr);
+  flex-grow: 1;
+  padding: 10px 10px;
+  justify-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main__interior-design-icon {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  width: 5vh;
+  position: relative;
+  background-image: url('../../images/main-services-design__icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main__interior-design-icon-description {
+  grid-column: 2 / span 3;
+  grid-row: 1 / span 2;
+  color: #fcfbfa;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.main__archicad-project-icon {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+  width: 5vh;
+  background-image: url('../../images/main-services-archicad__icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main__all-services-icon {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+  width: 10vw;
+  background-image: url('../../images/main-services__icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main__services-description {
+  padding: 25px;
+  margin: 0;
+  width: 90%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vh;
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 1;
+  background-color: #000;
+  color: #fcfbfa;
+}
+
+.main__services-description-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4vw;
+}
+
+.main__services-description-item-image {
+  width: 4vw;
 }

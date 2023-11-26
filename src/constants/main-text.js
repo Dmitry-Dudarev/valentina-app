@@ -3,5 +3,8 @@
 // то и объекту будут присвоены соответствующие значения
 export const mainText = {
   textBlockParagraphFirst: 'Рада приветствовать Вас на сайте, посвященном моей работе',
-  textBlockParagraphSecond: 'Вот как можно связаться со мной'
+  textBlockParagraphSecond: 'Вот как можно связаться со мной',
+  designIconDescription: 'Дизайн итнерьера',
+  archicadIconDescription: 'Проект ArchiCAD',
+  servicesIconDescription: 'Услуги',
 }
