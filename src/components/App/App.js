@@ -6,12 +6,14 @@ import Main from '../Main/Main';
 function App() {
   return (
     <div className="app">
-      <Header />
-      <main>
-        <Routes>
-          <Route path='/' element={<Main />} />
-        </Routes>
-      </main>
+      <div className="app-container">
+        <Header />
+        <main>
+          <Routes>
+            <Route path='/' element={<Main />} />
+          </Routes>
+        </main>
+      </div>
     </div>
   );
 }
