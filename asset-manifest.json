@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/valentina-app/static/css/main.dee6f374.css",
+    "main.css": "/valentina-app/static/css/main.4a55c2f0.css",
     "main.js": "/valentina-app/static/js/main.d7193267.js",
     "static/js/787.bdff869c.chunk.js": "/valentina-app/static/js/787.bdff869c.chunk.js",
     "static/media/main-banner-left__image.jpg": "/valentina-app/static/media/main-banner-left__image.4e2a02122bbd89a55e9a.jpg",
@@ -17,12 +17,12 @@
     "static/media/about-me__icon.svg": "/valentina-app/static/media/about-me__icon.bbee4501be460803f70a.svg",
     "static/media/about-me__icon_black.svg": "/valentina-app/static/media/about-me__icon_black.cdb1ee3d9c43e155b060.svg",
     "index.html": "/valentina-app/index.html",
-    "main.dee6f374.css.map": "/valentina-app/static/css/main.dee6f374.css.map",
+    "main.4a55c2f0.css.map": "/valentina-app/static/css/main.4a55c2f0.css.map",
     "main.d7193267.js.map": "/valentina-app/static/js/main.d7193267.js.map",
     "787.bdff869c.chunk.js.map": "/valentina-app/static/js/787.bdff869c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dee6f374.css",
+    "static/css/main.4a55c2f0.css",
     "static/js/main.d7193267.js"
   ]
 }
