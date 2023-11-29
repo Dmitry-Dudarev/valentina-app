@@ -58,19 +58,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  justify-content: flex-end;
   padding: 18px 30px;
   background-color: #1e2634;
   border: 1px solid #ffae01;
+  overflow: hidden;
 }
 
 .main__banner-text {
   text-align: center;
   color: #fcfbfa;
-  font-size: 15px;
+  font-size: 0.8rem;
+  flex-grow: 1;
 }
 
 .main__banner-text-borderline {
   width: 100%;
+  margin: 0;
   border: none;
   color: #fcfbfa;
   background-color: #fcfbfa;
@@ -268,12 +272,8 @@
 }
 
 @media (max-width: 1205px) {
-  .main__banner-text {
-    font-size: 14px;
-  }
-
   .main__grid-banner-text {
-    padding: 10px 16px;
+    padding: 10px 10px;
   }
 
   .main__grid-banner-text-contacts-link {
@@ -285,18 +285,6 @@
   }
 }
 
-@media (max-width: 1050px) {
-  .main__banner-text {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .main__grid-banner-text {
-    padding: 20px 10px;
-  }
-}
-
 @media (max-width: 950px) {
   .main__grid-banner-text-contacts-link {
     letter-spacing: 2px;
@@ -304,6 +292,10 @@
 
   .main__grid-cell-services-section {
     padding: 10px 22px;
+  }
+
+  .main__banner-text {
+    font-size: 0.7rem;
   }
 }
 
@@ -343,11 +335,11 @@
   }
 
   .main__grid-banner-text {
-    padding: 22px 30px;
+    padding: 20px;
   }
 
   .main__banner-text {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
 
   .main__grid-banner-text-contacts-link {
@@ -369,10 +361,6 @@
 }
 
 @media (max-width: 660px) {
-  .main__banner-text {
-    font-size: 14px;
-  }
-
   .main__grid-banner-text-contacts-link {
     font-size: 14px;
   }
@@ -392,6 +380,4 @@
   }
 }
 
-@media (max-width: 630px) {
-
-}
+@media (max-width: 630px) {}
