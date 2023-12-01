@@ -6,6 +6,7 @@
   background-color: #000;
   width: 100%;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
 .main__banner {
@@ -380,4 +381,6 @@
   }
 }
 
-@media (max-width: 630px) {}
+@media (max-width: 630px) {
+  
+}

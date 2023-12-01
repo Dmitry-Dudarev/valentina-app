@@ -11,6 +11,7 @@
   flex-direction: column;
   max-width: 1440px;
   flex-grow: 1;
+  position: relative;
 }
 
 .app-text {
