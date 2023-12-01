@@ -63,7 +63,7 @@
   padding: 18px 30px;
   background-color: #1e2634;
   border: 1px solid #ffae01;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .main__banner-text {
@@ -296,7 +296,7 @@
   }
 
   .main__banner-text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -340,7 +340,7 @@
   }
 
   .main__banner-text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .main__grid-banner-text-contacts-link {
@@ -382,5 +382,33 @@
 }
 
 @media (max-width: 630px) {
-  
+  .main__content {
+    height: 36vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main__grid {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-grow: 1;
+  }
+
+  .main__grid-cell {
+    width: 15vw;
+  }
+
+  .main__grid-banner-left, .main__grid-banner-right {
+    display: none;
+  }
+
+  .main__grid-banner-text {
+    
+  }
+
+  .main__banner-text {
+    display: none;
+  }
 }
