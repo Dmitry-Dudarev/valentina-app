@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { linksText } from "../../constants/links-text";
+import "./Medium-links.css";
 
 function MediumLinks(props) {
   return (
@@ -14,5 +15,7 @@ function MediumLinks(props) {
         </div>
       </Link>
     </div>
-  )
-}
+  );
+};
+
+export default MediumLinks;
