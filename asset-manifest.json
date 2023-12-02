@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/valentina-app/static/css/main.4a55c2f0.css",
-    "main.js": "/valentina-app/static/js/main.d7193267.js",
-    "static/js/787.bdff869c.chunk.js": "/valentina-app/static/js/787.bdff869c.chunk.js",
-    "static/media/main-banner-left__image.jpg": "/valentina-app/static/media/main-banner-left__image.4e2a02122bbd89a55e9a.jpg",
-    "static/media/main-banner-right__image.jpg": "/valentina-app/static/media/main-banner-right__image.98c3fba3d0a6328304f4.jpg",
-    "static/media/main-banner__image.jpg": "/valentina-app/static/media/main-banner__image.512e2e603c8b982a5203.jpg",
-    "static/media/main-portfolio-link__image.jpg": "/valentina-app/static/media/main-portfolio-link__image.1355fc9984c2e0a77d2b.jpg",
-    "static/media/main-services-archicad__icon_black.svg": "/valentina-app/static/media/main-services-archicad__icon_black.9811d3eb3cefd829bf9d.svg",
-    "static/media/main-services-archicad__icon.svg": "/valentina-app/static/media/main-services-archicad__icon.828540e063c8c8bf46e661feb2fd8341.svg",
-    "static/media/header__logo.svg": "/valentina-app/static/media/header__logo.103f065d9f7bf30720008db2e0d332f4.svg",
-    "static/media/main-services-design__icon.svg": "/valentina-app/static/media/main-services-design__icon.ce6df14c86a17c3e66963cd0febf3def.svg",
-    "static/media/main-services-design__icon_black.svg": "/valentina-app/static/media/main-services-design__icon_black.d8a8ae1b6d0dcc804e85.svg",
-    "static/media/main-services__icon.svg": "/valentina-app/static/media/main-services__icon.6a27f3dd0c5cbffeff32.svg",
-    "static/media/main-services__icon_black.svg": "/valentina-app/static/media/main-services__icon_black.b1ecaf24cd901b461582.svg",
-    "static/media/about-me__icon.svg": "/valentina-app/static/media/about-me__icon.bbee4501be460803f70a.svg",
-    "static/media/about-me__icon_black.svg": "/valentina-app/static/media/about-me__icon_black.cdb1ee3d9c43e155b060.svg",
-    "index.html": "/valentina-app/index.html",
-    "main.4a55c2f0.css.map": "/valentina-app/static/css/main.4a55c2f0.css.map",
-    "main.d7193267.js.map": "/valentina-app/static/js/main.d7193267.js.map",
-    "787.bdff869c.chunk.js.map": "/valentina-app/static/js/787.bdff869c.chunk.js.map"
+    "main.css": "/static/css/main.9be1e6c9.css",
+    "main.js": "/static/js/main.5c8cd0fb.js",
+    "static/js/787.bdff869c.chunk.js": "/static/js/787.bdff869c.chunk.js",
+    "static/media/main-banner-left__image.jpg": "/static/media/main-banner-left__image.4e2a02122bbd89a55e9a.jpg",
+    "static/media/main-banner-right__image.jpg": "/static/media/main-banner-right__image.98c3fba3d0a6328304f4.jpg",
+    "static/media/main-banner__image.jpg": "/static/media/main-banner__image.512e2e603c8b982a5203.jpg",
+    "static/media/main-portfolio-link__image.jpg": "/static/media/main-portfolio-link__image.1355fc9984c2e0a77d2b.jpg",
+    "static/media/main-services-archicad__icon_black.svg": "/static/media/main-services-archicad__icon_black.870b3385b0849d0b7aed.svg",
+    "static/media/main-services-archicad__icon.svg": "/static/media/main-services-archicad__icon.1b9b9be8ec03c9324a3f3f4683a233d6.svg",
+    "static/media/mainpage__logo.svg": "/static/media/mainpage__logo.f5164043f978998f22b9f88bd2ce3816.svg",
+    "static/media/main-services-design__icon.svg": "/static/media/main-services-design__icon.779966a2302a6306461389c4faa1afc1.svg",
+    "static/media/main-services-design__icon_black.svg": "/static/media/main-services-design__icon_black.c9912ff310df037dee22.svg",
+    "static/media/main-services__icon.svg": "/static/media/main-services__icon.d1cb38d2195aa2d93d13.svg",
+    "static/media/main-services__icon_black.svg": "/static/media/main-services__icon_black.abc91a6911bd9409e8b4.svg",
+    "static/media/about-me__icon.svg": "/static/media/about-me__icon.bbee4501be460803f70a.svg",
+    "static/media/about-me__icon_black.svg": "/static/media/about-me__icon_black.cdb1ee3d9c43e155b060.svg",
+    "index.html": "/index.html",
+    "static/media/sidemenu__icon.svg": "/static/media/sidemenu__icon.39ccd6aef85a7a1666ccd8c3df056c47.svg",
+    "main.9be1e6c9.css.map": "/static/css/main.9be1e6c9.css.map",
+    "main.5c8cd0fb.js.map": "/static/js/main.5c8cd0fb.js.map",
+    "787.bdff869c.chunk.js.map": "/static/js/787.bdff869c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a55c2f0.css",
-    "static/js/main.d7193267.js"
+    "static/css/main.9be1e6c9.css",
+    "static/js/main.5c8cd0fb.js"
   ]
 }
