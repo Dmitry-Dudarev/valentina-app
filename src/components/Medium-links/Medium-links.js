@@ -14,6 +14,30 @@ function MediumLinks(props) {
 
         </div>
       </Link>
+      <Link className="medium-links__unit medium-links__portfolio" to={"/portfolio"}>
+        <h2 className="app-text medium-links__title">
+          {linksText.aboutMe.toUpperCase()}
+        </h2>
+        <div className="medium-links__content">
+
+        </div>
+      </Link>
+      <Link className="medium-links__unit medium-links__services" to={"/services"}>
+        <h2 className="app-text medium-links__title">
+          {linksText.aboutMe.toUpperCase()}
+        </h2>
+        <div className="medium-links__content">
+
+        </div>
+      </Link>
+      <Link className="medium-links__unit medium-links__contacts" to={"/contacts"}>
+        <h2 className="app-text medium-links__title">
+          {linksText.aboutMe.toUpperCase()}
+        </h2>
+        <div className="medium-links__content">
+
+        </div>
+      </Link>
     </div>
   );
 };

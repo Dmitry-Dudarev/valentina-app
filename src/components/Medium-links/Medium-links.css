@@ -1,0 +1,14 @@
+.medium-links {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.medium-links__unit {
+  border: 1px solid #ffae01;
+  border-radius: 10px;
+  width: max-content;
+}

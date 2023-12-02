@@ -3,6 +3,7 @@ import "./Main.css";
 import { Link } from "react-router-dom";
 import { mainText } from "../../constants/main-text";
 import { linksText } from "../../constants/links-text";
+import MediumLinks from "../Medium-links/Medium-links";
 
 import designIcon from "../../images/main-services-design__icon.svg";
 import archicadIcon from "../../images/main-services-archicad__icon.svg";
@@ -108,8 +109,10 @@ function Main(props) {
               </p>
             </li>
           </ul>
-
         </div>
+      </div>
+      <div className="main__medium-links">
+        <MediumLinks />
       </div>
     </section>
   );

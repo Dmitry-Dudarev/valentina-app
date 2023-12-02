@@ -257,6 +257,10 @@
   width: 4vw;
 }
 
+.main__medium-links {
+  display: none;
+}
+
 @media (max-width: 1340px) {
   .main__grid-banner-text {
     padding: 10px 20px;
@@ -383,36 +387,12 @@
 
 @media (max-width: 630px) {
   .main__content {
-    height: 36vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
 
-  .main__grid {
+  .main__medium-links {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    height: 22vh;
-  }
-
-  .main__grid-cell {
-    width: 15vw;
-  }
-
-  .main__grid-banner-left {
-    display: none;
-  }
-
-  .main__grid-banner-right {
-    display: none;
-  }
-
-  .main__grid-banner-text {
-    
-  }
-
-  .main__banner-text {
-    display: none;
+    flex-direction: column;
+    height: 36vh;
   }
 }
