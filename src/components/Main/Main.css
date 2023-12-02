@@ -393,14 +393,18 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    flex-grow: 1;
+    height: 22vh;
   }
 
   .main__grid-cell {
     width: 15vw;
   }
 
-  .main__grid-banner-left, .main__grid-banner-right {
+  .main__grid-banner-left {
+    display: none;
+  }
+
+  .main__grid-banner-right {
     display: none;
   }
 
