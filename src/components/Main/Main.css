@@ -42,6 +42,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1vh;
 }
 
@@ -127,13 +128,18 @@
 }
 
 .main__grid-cell-image {
-  width: 100%;
   border-radius: 10px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   flex-grow: 1;
   transition: background-color 0.8s;
+}
+
+.main__grid-cell-image-vector {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 .main__grid-about-me-link {
@@ -158,6 +164,7 @@
 }
 
 .main__grid-portfolio-cell-image {
+  width: 100%;
   background-image: url('../../images/main-portfolio-link__image.jpg');
   background-repeat: no-repeat;
   background-position: 50% 80%;
@@ -170,16 +177,6 @@
   background-color: #1e2634;
   border: 1px solid #ffae01;
 }
-
-.main__grid-services-link:hover {
-  
-  grid-row: 1 / span 2;
-  
-}
-
-/* .main__grid-services-link:hover .main__grid-cell-services-section {
-  background-color: #ffad01;
-} */
 
 .main__grid-services-link:hover .main__grid-services-cell-image {
   background-color: #ffad01;
