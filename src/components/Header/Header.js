@@ -47,7 +47,7 @@ function Header(props) {
 
       {/* устанавливаем вариант отображения меню
       в зависимости от ширины окна просмотра */}
-      {windowWidth > 700 ? (
+      {windowWidth > 768 ? (
         <div className="header__navigation">
           <Link className="app-link app-text header__navigation-link" to={"/about-me"}>
             {linksText.aboutMe.toUpperCase()}

@@ -31,18 +31,18 @@ function Main(props) {
     // добавим обработчики событий
     // добавим проверку, чтобы обработчик событий 
     // не пытался навеситься на отсутствующие элементы
-    if (servicesLink) {
-      servicesLink.addEventListener('mouseenter', handleMouseEnter);
-      servicesLink.addEventListener('mouseleave', handleMouseLeave);
-    };
+    // if (servicesLink) {
+    //   servicesLink.addEventListener('mouseenter', handleMouseEnter);
+    //   servicesLink.addEventListener('mouseleave', handleMouseLeave);
+    // };
 
-    // Функция очистки
-    return () => {
-      if (servicesLink) {
-        servicesLink.removeEventListener('mouseenter', handleMouseEnter);
-        servicesLink.removeEventListener('mouseleave', handleMouseLeave);
-      }
-    };
+    // // Функция очистки
+    // return () => {
+    //   if (servicesLink) {
+    //     servicesLink.removeEventListener('mouseenter', handleMouseEnter);
+    //     servicesLink.removeEventListener('mouseleave', handleMouseLeave);
+    //   }
+    // };
   }, []);
 
   return (
@@ -65,25 +65,27 @@ function Main(props) {
           </div>
           <div className="main__grid-cell main__grid-banner-right" />
 
-          <Link className="app-link main__grid-cell main__grid-about-me-link" to={"/about-me"}>
+          <Link className="main__grid-cell main__grid-cell-link main__grid-about-me-link" to={"/about-me"}>
             <h2 className="app-text main__grid-cell-title">{linksText.aboutMe.toUpperCase()}</h2>
             <div className="main__grid-cell-image main__grid-about-me-cell-image" />
           </Link>
 
-          <Link className="app-link main__grid-cell main__grid-portfolio-link" to={"/portfolio"}>
+          <Link className="main__grid-cell main__grid-cell-link main__grid-portfolio-link" to={"/portfolio"}>
             <h2 className="app-text main__grid-cell-title main__grid-portfolio-link-title">
               {linksText.portfolio.toUpperCase()}
             </h2>
             <div className="main__grid-cell-image main__grid-portfolio-cell-image" />
           </Link>
 
-          <Link className="app-link main__grid-cell main__grid-services-link" to={"/services"}>
+          <Link className="main__grid-cell main__grid-cell-link main__grid-services-link" to={"/services"}>
             <h2 className="app-text main__grid-cell-title">{linksText.services.toUpperCase()}</h2>
-            <div className="main__grid-cell-services-section">
-              <div className="main__interior-design-icon" />
-              <div className="main__archicad-project-icon" />
+            <div className="main__grid-cell-image main__grid-services-cell-image" />
+
+            {/* <div className="main__grid-cell-services-section">
               <div className="main__all-services-icon" />
-            </div>
+            </div> */}
+
+
           </Link>
 
           <ul className="main__services-description">
